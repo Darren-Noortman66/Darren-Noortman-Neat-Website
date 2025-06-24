@@ -1,0 +1,26 @@
+{
+    "name": "darren-noortman-portfolio",
+    "version": "1.0.0",
+    "description": "Darren Noortman's professional portfolio website",
+    "main": "index.html",
+    "scripts": {
+        "start": "serve -s . -p $PORT",
+        "build": "echo 'Static site - no build required'",
+        "dev": "serve -s . -p 3000"
+    },
+    "keywords": [
+        "portfolio",
+        "web-development",
+        "frontend",
+        "backend",
+        "software-engineer"
+    ],
+    "author": "Darren Noortman",
+    "license": "MIT",
+    "devDependencies": {
+        "serve": "^14.2.1"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    }
+}
