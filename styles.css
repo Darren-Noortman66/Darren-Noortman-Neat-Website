@@ -92,6 +92,8 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     position: relative;
     overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 3rem;
 }
 
 .hero-section::before {
@@ -548,7 +550,7 @@ h1, h2, h3, h4, h5, h6 {
     
     /* Add spacing below Get in Touch button on mobile */
     .hero-buttons .btn-outline-light {
-        margin-bottom: 2rem;
+        margin-bottom: 0;
     }
 }
 
