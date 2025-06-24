@@ -551,6 +551,11 @@ h1, h2, h3, h4, h5, h6 {
     .hero-buttons .btn-outline-light {
         margin-bottom: 0;
     }
+    
+    /* Move scroll indicator down on mobile to avoid button overlap */
+    .scroll-indicator {
+        bottom: 1rem;
+    }
 }
 
 @media (max-width: 576px) {
