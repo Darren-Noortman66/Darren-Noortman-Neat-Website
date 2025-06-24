@@ -540,6 +540,16 @@ h1, h2, h3, h4, h5, h6 {
         order: 1;
         margin-bottom: 2rem;
     }
+    
+    /* Add padding to prevent header overlap on mobile */
+    .hero-section {
+        padding-top: 100px;
+    }
+    
+    /* Add spacing below Get in Touch button on mobile */
+    .hero-buttons .btn-outline-light {
+        margin-bottom: 2rem;
+    }
 }
 
 @media (max-width: 576px) {
