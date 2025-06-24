@@ -58,6 +58,20 @@ h1, h2, h3, h4, h5, h6 {
     color: white !important;
 }
 
+.header-logo {
+    height: 65px;
+    width: auto;
+    transition: var(--transition);
+    position: relative;
+    top: -8px;
+    display: block;
+    margin: 0 auto;
+}
+
+.navbar-brand:hover .header-logo {
+    transform: scale(1.05);
+}
+
 .navbar-nav .nav-link {
     color: rgba(255, 255, 255, 0.8) !important;
     font-weight: 500;
@@ -555,6 +569,12 @@ h1, h2, h3, h4, h5, h6 {
     /* Move scroll indicator down on mobile to avoid button overlap */
     .scroll-indicator {
         bottom: 1rem;
+    }
+    
+    /* Adjust header logo size for mobile */
+    .header-logo {
+        height: 52px;
+        top: -5px;
     }
 }
 
