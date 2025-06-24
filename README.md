@@ -84,15 +84,11 @@ The `render.yaml` file is already configured for automatic deployment.
 - Add new projects in the projects section
 - Update skills and technologies as needed
 
-## License
-
-MIT License - feel free to use this template for your own portfolio.
-
 ## Contact
 
-- **Email**: darren@example.com
-- **Phone**: +1 (555) 123-4567
-- **Location**: Your City, Country
+- **Email**: darrennoortman66@gmail.com.com
+- **Phone**: (+27) 083-952-8453
+- **Location**: Johannesburg, South Africa
 
 ---
 
