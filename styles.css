@@ -526,6 +526,20 @@ h1, h2, h3, h4, h5, h6 {
     .about-image .image-placeholder i {
         font-size: 4rem;
     }
+    
+    /* Reorder hero section on mobile */
+    .hero-section .row {
+        flex-direction: column;
+    }
+    
+    .hero-section .col-lg-6:first-child {
+        order: 2;
+    }
+    
+    .hero-section .col-lg-6:last-child {
+        order: 1;
+        margin-bottom: 2rem;
+    }
 }
 
 @media (max-width: 576px) {
