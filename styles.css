@@ -416,6 +416,12 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 15px;
     box-shadow: var(--shadow);
     transition: var(--transition);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .contact-item:hover {
@@ -437,6 +443,17 @@ h1, h2, h3, h4, h5, h6 {
 .contact-icon i {
     font-size: 1.5rem;
     color: white;
+}
+
+.contact-item h5 {
+    margin-bottom: 0.5rem;
+    color: var(--dark-color);
+    font-weight: 600;
+}
+
+.contact-item p {
+    margin-bottom: 0;
+    color: var(--text-color);
 }
 
 .social-links {
@@ -615,4 +632,156 @@ html {
 .social-link:focus {
     outline: 2px solid var(--primary-color);
     outline-offset: 2px;
+}
+
+/* Education Section */
+.education-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    height: 100%;
+    padding: 2rem;
+}
+
+.education-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+
+.education-header {
+    margin-bottom: 1.5rem;
+}
+
+.education-header h4 {
+    color: var(--dark-color);
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.education-header .institution {
+    display: block;
+    color: var(--primary-color);
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.education-header .duration {
+    display: block;
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+}
+
+.education-content p {
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.education-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.education-list li {
+    color: var(--text-color);
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.education-list li:before {
+    content: "•";
+    color: var(--primary-color);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.education-list li:last-child {
+    margin-bottom: 0;
+}
+
+.education-details {
+    margin-top: 1rem;
+}
+
+/* Work Experience Section */
+.experience-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    height: 100%;
+    padding: 2rem;
+}
+
+.experience-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+
+.experience-header {
+    margin-bottom: 1.5rem;
+}
+
+.experience-header h4 {
+    color: var(--dark-color);
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.experience-header .company {
+    display: block;
+    color: var(--primary-color);
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.experience-header .duration {
+    display: block;
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+}
+
+.experience-content p {
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.experience-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.experience-list li {
+    color: var(--text-color);
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.experience-list li:before {
+    content: "•";
+    color: var(--primary-color);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.experience-list li:last-child {
+    margin-bottom: 0;
+}
+
+.experience-tech {
+    margin-top: 1rem;
 } 
